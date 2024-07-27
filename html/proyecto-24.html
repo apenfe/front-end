@@ -1,0 +1,33 @@
+<!-- CREA UN FORMULARIO CON UN CAMPO DE TIPO TEXTO CON ESTAS CARACTERISTICAS:
+ -DEBE SER OBLIGATORIO
+ -MINIMO SE PUEDEN INTRODUCIR 3 CARACTERES Y MAXIMO 10
+ -SOLO PODRAS METER ESPACIOS Y LETRAS DE A-Z EN MINUSCULAS Y MAYUSCULAS -->
+
+<!DOCTYPE html>
+
+<html lang="es">
+  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto 24 HTML</title>
+    </head>
+  
+    <body>
+
+        <form action="" method="POST">
+
+            <fieldset>
+                <legend>TEXTO</legend>
+                <label for="texto">Texto: </label>
+                <input type="text" id="texto" placeholder="Texto..." name="texto" required minlength="3" maxlength="10" pattern="[A-Za-z ]+">
+            </fieldset>
+
+            <input type="submit" value="Enviar formulario">
+            <input type="reset" value="limpiar">
+
+        </form>
+          
+    </body>
+  
+</html>

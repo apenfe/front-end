@@ -1,0 +1,68 @@
+<!-- CREA UN FORMULARIO CON UN CAMPO DE TIPO BUSQUEDA,
+TELEFONO, HORA, URL, BARRA DE PROGRESO, LISTA DE DATOS, SUBMIT Y RESET
+TODOS LOS CAMPOS DEBERAN TENER UN LABEL -->
+
+<!DOCTYPE html>
+
+<html lang="es">
+  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto 23 HTML</title>
+    </head>
+  
+    <body>
+
+        <form action="" method="POST">
+
+            <fieldset>
+                <legend>Busqueda</legend>
+                <label for="busqueda">Busqueda: </label>
+                <input type="search" id="busqueda" placeholder="Buscar" name="busqueda">
+            </fieldset>
+           
+
+            <fieldset>
+                <legend>Telefono</legend>
+                <label for="telf">Telefono: </label>
+                <input type="tel" id="telf" name="telf">
+            </fieldset>
+
+            <fieldset>
+                <legend>Hora</legend>
+                <label for="time">Hora: </label>
+                <input type="time" id="time" name="time">
+            </fieldset>
+
+            <fieldset>
+                <legend>URL</legend>
+                <label for="url">URL: </label>
+                <input type="url" id="url" name="url">
+            </fieldset>
+
+            <fieldset>
+                <legend>Progreso</legend>
+                <label for="progreso">Progreso: </label>
+                <progress max="100" value="27">
+            </fieldset>
+
+            <fieldset>
+                <legend>datalist</legend>
+                <label for="coches">Coches: </label>
+                <input list="coches" name="coche">
+                <datalist id="coches">
+                    <option value="renault">coche de mileurista</option>
+                    <option value="audi">coche de lujo</option>
+                    <option value="bmw">coche normal</option>
+                </datalist>
+            </fieldset>
+
+            <input type="submit" value="Enviar formulario">
+            <input type="reset" value="limpiar">
+
+        </form>
+          
+    </body>
+  
+</html>
