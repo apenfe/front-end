@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.layout{
+    text-align: center;
+    margin: 0px auto;
+    background-color: aquamarine;
+    min-height: 800px;
+}
+
+.layout__encabezado{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.layout__link{
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.layout__parrafo{
+    color: black;
+    font-size: 14px;
+    border: 1px solid black;
+}
