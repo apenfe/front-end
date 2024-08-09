@@ -1,0 +1,29 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titulo{
+    display: block;
+    margin: 0px auto;
+    color: white;
+    background-color: #303030;
+    font-size: 34px;
+    padding: 17px;
+    text-align: center;
+}
+
+.articulo{
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.subtitulo{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
