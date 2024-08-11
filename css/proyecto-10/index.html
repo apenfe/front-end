@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto 10 CSS</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Pacifico&family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+
+        <link rel="styles" type="text/css" href="../assets/fontawesome-free-6.1.2-web/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="../assets/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    </head>
+
+    <body>
+
+        <div class="layout">
+
+            <h1 class="layout__title">Busca tu hotel</h1>
+
+            <form class="layout__search">
+
+                <input type="search" class="search__input" placeholder="Busca tu hotel y lo encontraremos">
+                
+                <button class="search__btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </form>
+
+            <main class="layout__results">
+
+                <article class="results__result">
+                    <p class="result__subtitle">Nombre:</p>
+                    <h3 class="result__title">Hotel Mandarin Oriental Ritz</h3>
+                </article>
+
+                <article class="results__result">
+                    <p class="result__subtitle">Ubicacion:</p>
+                    <h3 class="result__title">Pl. de la Lealtad, 5, Retiro</h3>
+                </article>
+
+                <article class="results__result">
+                    <p class="result__subtitle">Fecha:</p>
+                    <h3 class="result__title">11/08/2024</h3>
+                </article>
+
+            </main>
+
+            <section class="layout__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.83916697459!2d-3.69407119044622!3d40.41597617864834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42288329bef061%3A0xb9bba45ac90e2184!2sHotel%20Mandarin%20Oriental%20Ritz!5e0!3m2!1ses!2ses!4v1723374819727!5m2!1ses!2ses" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                class="map__frame"></iframe>
+            </section>
+
+        </div>
+        
+    </body>
+
+</html>
