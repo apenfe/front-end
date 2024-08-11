@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 40px;
+}
+
+h3{
+    word-spacing: 20px;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 10px;
+}
