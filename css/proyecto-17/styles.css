@@ -1,0 +1,32 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+}
+
+.layout{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+.layout__section{
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    border: 1px dashed black;
+    margin-top: 3rem;
+}
+
+.section__article{
+    background-color: aqua;
+    width: 23%;
+    float: left;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
