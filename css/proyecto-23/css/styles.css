@@ -1,0 +1,97 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+}
+
+.layout{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout__buttons{
+    width: 50rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+/* EFECTO BOTON 1 */
+
+.buttons__btn1{
+
+    position: relative;
+    width: 22rem;
+    height: 7rem;
+    border-radius: 0.5rem;
+    border: 3px solid #6DBEFB;
+    cursor: pointer;
+    overflow: hidden;
+    font-weight: 600;
+    color: #6DBEFB;
+    background-color: white;
+    outline: none;
+}
+
+.buttons__btn1::before{
+    content: "Subir video";
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #6DBEFB;
+    color: white;
+    font-weight: 600;
+    transform: translateY(7rem);
+    transition: all 300ms linear;
+}
+
+.buttons__btn1:hover::before{
+    transform: translateY(0rem);
+}
+
+/* EFECTO BOTON 2 */
+
+.buttons__btn2{
+    position: relative;
+    background-color: #6DBEFB;
+    border-radius: 10rem;
+    color: white;
+    width: 22rem;
+    height: 7rem;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    outline: none;
+}
+
+.buttons__btn2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6DBEFB;
+    border-radius: 10rem;
+    z-index: -1;
+    transition: all 1s linear;
+
+}
+
+.buttons__btn2:hover::before{
+    transform: scaleX(1.3) scaleY(1.5);
+    opacity: 0;
+}

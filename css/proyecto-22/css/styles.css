@@ -1,0 +1,124 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+}
+
+.layout{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5E9D9;
+}
+
+.layout__main{
+    width: 50rem;
+}
+
+.main__header{
+    padding: 3rem;
+    color: white;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    background-color: #5DD8EC;
+}
+
+.header__subtitle{
+    margin-bottom: 0.5rem;
+}
+
+.main__graph{
+    background-color: white;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+.graph__title{
+    font-size: 2.4rem;
+    margin-bottom: 6rem;
+}
+
+.graph__container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+.graph__bar{
+    width: calc(14% - 0.5rem);
+    height: 5rem;
+    background-color: #5DD8EC;
+    border-radius: 0.5rem;
+}
+
+.graph__bar--1{
+    height: 9rem;
+    background-color: #596DC2;
+}
+
+.graph__bar--2{
+    height: 6rem;
+}
+
+.graph__bar--3{
+    height: 2rem;
+}
+
+.graph__bar--4{
+    height: 1rem;
+}
+
+.graph__bar--5{
+    height: 7rem;
+}
+
+.graph__bar--6{
+    height: 3rem;
+}
+
+.graph__bar--7{
+    height: 2rem; 
+}
+
+.graph__ranges{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ranges__range{
+    width: calc(14% - 0.5rem);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #B7B8C6;
+}
+
+.graph__result{
+    margin-top: 6rem;
+    padding: 2rem;
+    border: 1px solid #B7B8C6;
+    border-radius: 1rem;
+}
+
+.result__title{
+    font-size: 1.5rem;
+    color: #B7B8C6;
+}
+
+.result__range{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 0.2rem;
+}
