@@ -1,0 +1,163 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem
+}
+
+.layout{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEFFF;
+}
+
+.layout__main{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 13px #7e787e;
+}
+
+.main__left{
+    background-color: #765ECC;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 3rem 7rem 3rem 3rem;
+}
+
+.main__steps{
+    width: 100%;
+    list-style: none;
+}
+
+.steps__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.steps__container-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+
+.steps__container-number:hover{
+    border: 1px solid #562CFE;
+    background-color: #562CFE;
+}
+
+.steps__number{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.steps__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__title{
+    color: white;
+    opacity: 0.5;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+.steps__description{
+    font-weight: 600;
+}
+
+.main__right{
+    padding: 2rem 10rem;
+}
+
+.main__header{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.header__title{
+    color: #444;
+    font-size: 3.6rem;
+    margin-bottom: 0.7rem;
+}
+
+.header__subtitle{
+    color: black;
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+.main__form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form__control{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label{
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form__input{
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 1px solid #ddd;
+    color: #999;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.form__input::placeholder{
+    color: #999;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.form__btn{
+    width: 100%;
+    display: inline-block;
+    background-color: #11024B;
+    color: white;
+    font-weight: 600;
+    padding: 1.5rem;
+    margin-top: 3.5rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+
+.form__btn:hover{
+    background-color: #562CFE;
+}
+
