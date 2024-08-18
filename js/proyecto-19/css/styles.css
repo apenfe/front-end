@@ -1,0 +1,123 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #E9EFFB;
+    padding: 3rem;
+}
+
+.layout__container-form{
+    display: flex;
+    justify-content: center;
+}
+
+.form__create{
+    min-width: 60rem;
+    margin-bottom: 1.5rem;
+}
+
+.create__container{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.create__label{
+    display: block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.create__input{
+    width: 100%;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #444;
+    resize: none;
+}
+
+.create__btn{
+    display: inline-block;
+    width: 100rem;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    background-color: #0b58ca;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.create__btn:hover{
+    background-color: #3077e0;
+}
+
+.layout__articles{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.layout__card{
+    width: 30rem;
+    background-color: #0E6EFC;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+.card__header{
+    border-bottom: 1px solid #0b58ca;
+}
+
+.header__author{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+}
+
+.card__content{
+    padding: 1.5rem;
+
+}
+
+.content__title{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.content__description{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.content__btn{
+    border: 1px solid #0b58ca;
+    background-color: transparent;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
