@@ -1,0 +1,43 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+}
+
+.layout{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main{
+    width: 50rem;
+}
+
+.main__input{
+    width: 100%;
+    display: block;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #ccc;
+    outline: none;
+    margin-bottom: 3rem;
+}
+
+.main__text{
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.text__search{
+    background-color: #CBB8F3;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+}
