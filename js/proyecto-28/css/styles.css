@@ -1,0 +1,68 @@
+html{
+    font-size: 10px;
+    height: 100%;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+.layout{
+    width: 100%;
+    height: 100%;
+}
+
+.layout__main{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__background{
+    content: "";
+    width: calc(100% + 5rem);
+    height: calc(100% + 5rem);
+    position: absolute;
+    z-index: -1;
+    filter: blur(3rem);
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.load__number{
+    font-size: 7rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.load__btn{
+    padding: 1rem;
+    border: none;
+    width: 100%;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    background-color: #309854;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.load__btn:hover{
+    background-color: #31AE60;
+}
+
+.load__complete{
+    display: none;
+    color: #309854;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-shadow: 0 0 1rem black;
+}
