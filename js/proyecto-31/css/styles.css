@@ -1,0 +1,116 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 1.6rem; 
+    background-color: #E9EFFB;
+}
+
+.layout{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main{
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+}
+
+.main__steps{
+    position: relative;
+    margin-right: 4rem;
+}
+
+.steps__progress,
+.steps__bar{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 0.5rem;
+    transition: all 300ms ease-in-out;
+}
+
+.steps__progress{
+    height: 100%;
+    background-color: #CBD0CC;
+}
+
+.steps__bar{
+    height: 0%;
+    background-color: #029587;
+}
+
+.steps__circles{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.steps__step{
+    background-color: white;
+    border-radius: 5rem;
+    border: 3px solid #CBD0CC;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #5c6f84;
+    transition: all 300ms linear;
+}
+
+.steps__step > .fa-solid{
+    opacity: 0;
+    transition: all 300ms linear;
+}
+
+.active{
+    border: 3px solid #029587;
+}
+
+.active > .fa-solid{
+    opacity: 1;
+}
+
+.main__btns{
+    display: flex;
+    align-items: flex-end;
+    gap: 1.5rem;
+}
+
+.btns__prev,
+.btns__next{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #029587;
+    padding: 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+
+.disabled{
+    background-color: #E0E0E0;
+    cursor: not-allowed;
+}
