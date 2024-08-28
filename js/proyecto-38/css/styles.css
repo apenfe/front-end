@@ -1,0 +1,63 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    background-color: #212121;
+}
+
+.layout {
+    width: 100%;
+    padding: 2rem;
+}
+
+.layout__title {
+    margin-bottom: 4rem;
+    text-align: center;
+    color: white;
+}
+
+.layout__sounds {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sounds__item {
+    width: 15%;
+    border: 2px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sounds__container-img {
+    width: 11rem;
+    height: 15rem;
+    overflow: hidden;
+}
+
+.sounds__btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #EA6969;
+    color: white;
+    outline: none;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    padding: 1rem;
+}
