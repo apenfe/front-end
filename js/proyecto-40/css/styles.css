@@ -1,0 +1,44 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #F5F7FB;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.layout__main {
+    width: 100rem;
+}
+
+.main__title {
+    margin-bottom: 4rem;
+}
+
+.main__stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.stars__star {
+    font-size: 6rem;
+    color: #B3B4BB;
+    cursor: pointer;
+}
+
+.active {
+    color: #4D60EC;
+}
