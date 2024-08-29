@@ -1,0 +1,110 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #F5F7FB;
+    overflow-x: hidden;
+}
+
+.layout {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.layout__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__articles {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 60%;
+    height: 100%;
+    padding: 3rem 4rem;
+}
+
+.articles__article {
+    padding: 2rem;
+    border: 2px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 400ms linear;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    transform: translate(400%);
+    -webkit-transform: translate(400%);
+    -moz-transform: translate(400%);
+    -ms-transform: translate(400%);
+    -o-transform: translate(400%);
+}
+
+.articles__article--show {
+    transform: translate(0%);
+    -webkit-transform: translate(0%);
+    -moz-transform: translate(0%);
+    -ms-transform: translate(0%);
+    -o-transform: translate(0%);
+}
+
+.article__title {
+    font-size: 2rem;
+    line-height: 1.4;
+    color: gray;
+    margin-bottom: 1.5rem;
+}
+
+.article__description {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.article__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.info__container-img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.info__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.info__container-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__name {
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.info__date {
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: 400;
+}

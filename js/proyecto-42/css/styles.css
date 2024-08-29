@@ -1,0 +1,136 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: #F5F7FB;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main {
+    width: 50rem;
+}
+
+.main__search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ED4900;
+    padding: 3rem;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+
+.search__input {
+    padding: 1rem;
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
+
+.search__btn {
+    background-color: white;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.main__users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #ED4900;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+    max-height: 60rem;
+    overflow: auto;
+}
+
+.users__user {
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 4rem;
+}
+
+.user__container-img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    overflow: hidden;
+}
+
+.user__img {
+    width: 100%;
+    height: auto;
+}
+
+.user__content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.user__name {
+    font-weight: 600;
+}
+
+.user__email {
+    font-weight: 500;
+    color: #666;
+}
+
+.main__users::-webkit-scrollbar {
+    width: 3rem;
+    background-color: white;
+}
+
+.main__users::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: 1.2rem solid transparent;
+    box-shadow: inset 0 0 0 1rem #ED4900;
+}
+
+.hidden {
+    display: none;
+}
