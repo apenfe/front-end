@@ -1,0 +1,139 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+
+.layout {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F7FB;
+}
+
+.layout__main {
+    width: 50rem;
+}
+
+.main__title {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.main__form {
+    width: 100%;
+}
+
+.form__input {
+    width: 100%;
+    border: none;
+    background-color: #24273D;
+    padding: 1.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 4rem;
+    color: #AEC1D8;
+    font-weight: 600;
+    outline: none;
+}
+
+.form__input::placeholder {
+    color: #AEC1D8;
+}
+
+.form__list {
+    list-style: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #383959;
+    background-color: #24273D;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    color: #AEC1D8;
+}
+
+.list__task {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.task__check {
+    width: 2rem;
+    height: 2rem;
+    background-color: #9B9DA6;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.task__check:checked {
+    background-image: url("../img/check.svg");
+    background-size: contain;
+}
+
+.task__text {
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+.list__delete {
+    color: #AEC1D8;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+.list__delete:hover {
+    background-color: #444;
+}
+
+.list__item--completed {
+    color: #777;
+    text-decoration: line-through;
+}
